@@ -1,0 +1,282 @@
+.logo{
+    height: 70px;
+    width: 70px;
+}
+p{
+    font-size: 18px;
+}
+/*navbar*/
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar .navbar-collapse{
+    flex-direction: row-reverse;
+}
+.navbar .nav-item{
+    padding: 0 0 0 15px ;
+    font-weight: bold;
+}
+.navbar-nav  .nav-item .nav-link{
+    color: white;
+}
+.navbar-nav .nav-item .nav-link.active{
+    background-color: #869700;
+    border-radius: 10px;
+}
+
+.navbar .nav-link:hover{
+    background-color: #869700;
+    border-radius: 10px;
+}
+.introduction{
+    color: rgb(15, 15, 15);
+}
+
+/*intro*/
+
+.introduction{
+  border-radius: 100% 0% 100% 0% / 21% 66% 34% 79%;
+}
+.overlay{
+    padding-top: 13rem;
+    height: 700px;
+    background: rgba(196, 202, 135, 0.8);
+    z-index: 1;
+    border-radius: 100% 0% 100% 0% / 21% 66% 34% 79%;
+    
+}
+.intro p{
+    font-size: 18px;
+    padding: 1rem 0;
+}
+.intro button{
+    background-color: #869700;
+    border-color:#869700;
+    padding: 5px 30px;
+}
+.intro button:hover{
+    background-color: #5f6d10;
+    border-color: #5f6d10;
+}
+.business_half{
+    padding: 2rem;
+    margin-top: 3rem;
+    color: #333;
+}
+.business_half button{
+    display: block;
+    background-color: #869700;
+    border-color:#869700;
+}
+.business_half button:hover{
+    background-color: #5f6d10;
+    border-color: #5f6d10;
+}
+.business_half a{
+    text-decoration: none;
+}
+
+/*company overview*/
+.company_overview{
+    background-color: #cfd89e;
+    border-radius:100% 0% 100% 0% / 38% 100% 0% 62% ;
+}
+.process i{
+    display: inline-block;
+    width: auto;
+    height: 70px;
+    width: 70px;
+    box-shadow: 5px 5px 5px 2px grey;
+    text-align: center;
+    border-radius: 25%;
+    padding-top: 15px;
+}
+.reqanalysis:hover i{
+    color: #869700;
+    border:1px solid #869700;
+}
+
+.our_clients{
+    max-height: 100px;
+    max-width: auto;
+}
+.our_clients{
+    filter: grayscale(100%);
+    transition-duration: 0.3s;
+}
+.our_clients:hover{
+    filter: none;
+}
+
+
+/*testimonial*/
+.testimonials_section {
+    background-color: #cfd89e;;
+    background :linear-gradient(315deg, #8b9e5d 0%, #cfd89e 74%);
+    margin:3rem 0;
+}
+
+.quote_section{
+    text-align: center;
+    justify-content: center;
+}
+.quote_section p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.quote_section p::before{
+    content: open-quote;
+}
+.quote_section p::after{
+    content: close-quote;
+}
+
+
+
+/*footer*/
+footer{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    padding-top: 3rem;
+}
+.footer-logo{
+    color: white;
+}
+footer ul{
+    padding: 0;
+    list-style: none;
+}
+footer i{
+    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+}
+.social li{
+    display: inline;
+}
+.social .facebook{
+    background-color :#3B5998;
+}
+.social .instagram{
+    background-color:RGB(253, 29, 29);
+}
+.social .linkedin{
+    background-color :#0e76a8;
+}
+.foot_title h3{
+    color: rgb(209, 209, 209);
+}
+.footer-bottom{
+    padding: 5px 0;
+    background-color: black;
+}
+
+/*about*/
+
+.about_intro{
+    padding-top:3rem;
+}
+
+.mission{
+    padding-top: 5rem;
+    text-align: right;
+}
+.mission_image img{
+    height: 400px;
+    width: auto;
+}
+
+/*Our Team*/
+.team img{
+    border:1px solid rgb(197, 197, 197);
+    border-radius: 50px;
+}
+.team p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+.team a i{
+    margin-right: 5px;
+    filter: grayscale(100%);
+}
+.team a i:hover{
+    filter: none;
+}
+.team .gmail{
+    color: #EA4335;
+}
+.team .instagram{
+    color:RGB(253, 29, 29);
+}
+
+/*services*/
+.services_intro{
+    padding-top: 5rem;
+}
+ .services_section  i{
+    height: 60px;
+    width: 70px;
+    box-shadow: 5px 5px 5px 2px grey;
+    text-align: center;
+    border-radius: 25%;
+    padding-top: 1rem;
+}
+.services_section i:hover{
+    color: #869700;
+    border:1px solid #869700;
+}
+/*contact*/
+
+.btn_form{
+    border-radius: 25px;
+    background-color: #869700;
+    border-color: #869700;
+}
+.btn_form:hover{
+    background-color: #5f6d10;
+    border-color: #5f6d10;
+}
+
+input[type="text"],
+input[type="email"],
+.textarea{
+    height: 56px;
+    background-color:rgb(241, 241, 241);
+    border-color: rgb(241, 241, 241);
+}
+
+.form-control{
+    margin: 1rem 0;
+}
+
+
+/*product section*/
+.card:hover{
+    border: 1px solid #869700;
+}
+
+.card_section a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.card-footer{
+    background-color: #869700;
+    color: white;
+}
+.view{
+    background-color: #869700;
+    color: black;
+    padding: 3px 20px;
+    border-radius: 10px;
+    border: 1px solid #333;   
+}
+.view:hover{
+    color: white;
+    background-color: #5f6d10;
+}
